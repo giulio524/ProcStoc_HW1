@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1613513478 "c:/Users/giuli/Documents/GitHub/ProcStoc_HW1/hw1.tex" "c:/Users/giuli/Documents/GitHub/ProcStoc_HW1/hw1.pdf" "hw1" 1613513480
+["pdflatex"] 1613554661 "c:/Users/giuli/Documents/GitHub/ProcStoc_HW1/hw1.tex" "c:/Users/giuli/Documents/GitHub/ProcStoc_HW1/hw1.pdf" "hw1" 1613554672
   "C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc" 1254935040 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc" 1254935040 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc" 1254935040 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -180,17 +180,17 @@
   "Catena4.eps" 1613310630 381432 25a28e365f22a4c9861b67ec41236d8d ""
   "Catena5.1.eps" 1613408054 345248 edfa346910f807c3f520d6b5342f8027 ""
   "Catena6.eps" 1613414952 285906 5ffbd825a3b13cd6701ef37b55b1831f ""
-  "c:/Users/giuli/Documents/GitHub/ProcStoc_HW1/hw1.aux" 1613513480 1414 416774e27afe75551241f1fce34c7c40 ""
-  "c:/Users/giuli/Documents/GitHub/ProcStoc_HW1/hw1.tex" 1613513477 25536 4d071036c4a7bed8da8fd872958e6f13 ""
+  "c:/Users/giuli/Documents/GitHub/ProcStoc_HW1/hw1.aux" 1613554663 1459 303d2d73e09c11fa63d26337aa6789dc ""
+  "c:/Users/giuli/Documents/GitHub/ProcStoc_HW1/hw1.tex" 1613554672 25685 b46eccc32c19078f78ca305038c58b65 ""
   "homework.cls" 1613100366 5533 870888d4c585315eca3f91cc8294cf09 ""
-  "hw1.aux" 1613513480 1414 416774e27afe75551241f1fce34c7c40 "pdflatex"
-  "hw1.out" 1613513480 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "hw1.tex" 1613513477 25536 4d071036c4a7bed8da8fd872958e6f13 ""
+  "hw1.aux" 1613554663 1459 303d2d73e09c11fa63d26337aa6789dc "pdflatex"
+  "hw1.out" 1613554663 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "hw1.tex" 1613554672 25685 b46eccc32c19078f78ca305038c58b65 ""
   "mcode.sty" 1613100368 11473 e3c3290432e60d7d82bde7534454793e ""
   (generated)
+  "c:/Users/giuli/Documents/GitHub/ProcStoc_HW1/hw1.log"
   "hw1.pdf"
   "hw1.out"
-  "hw1.aux"
-  "c:/Users/giuli/Documents/GitHub/ProcStoc_HW1/hw1.log"
-  "c:/Users/giuli/Documents/GitHub/ProcStoc_HW1/hw1.pdf"
   "hw1.log"
+  "c:/Users/giuli/Documents/GitHub/ProcStoc_HW1/hw1.pdf"
+  "hw1.aux"

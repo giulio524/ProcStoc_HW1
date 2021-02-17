@@ -356,15 +356,29 @@ Dove \(I-P_{T,T}\) è una matrice triangolare superiore, pertanto il sistema pu�
   \end{bmatrix}
 \end{gather*}
 Il sistema può essere risolto per induzione con soluzione:
-\begin{gather*}
+\begin{gather} \label{eq:mni}
   m_{n-i} =  \sum \limits_{k=1}^{i} \frac{1}{n-(n-k)} =  \sum \limits_{k=1}^{i} \frac{1}{k}
+\end{gather}
+infatti abbiamo:
+\begin{gather*}
+m_{n-1} = 1\\
+m_{n-2}=1+\frac{1}{2}=\sum_{k=1}^{2}\frac{1}{k}.
+\end{gather*} 
+Supponendo quindi vero il predicato per i valori \(\{i-1, i-2, \dots , 1\}\) andiamo a dimostrare \ref{eq:mni} utilizzando la forma del sistema triangolare superiore:
+\begin{gather*}
+  m_{n-i} = 1 + \frac{1}{i}\left( \sum \limits_{k=1}^{i-1}\frac{1}{k} + \sum \limits_{k=1}^{i-2}\frac{1}{k} + \sum \limits_{k=1}^{i-3}\frac{1}{k} + \dots + \sum \limits_{k=1}^{1}\frac{1}{k} \right) = \\
+  1 + \frac{1}{i}\left(\sum \limits_{k=1}^{i-1}\frac{1}{k}(i-k)\right) = 1 + \frac{1}{i}\left( \left(\sum \limits_{k=1}^{i-1}\frac{i}{k}\right)- (i-1)\right) = \\
+   \frac{1}{i} +\sum \limits_{k=1}^{i-1}\frac{1}{k} = \sum \limits_{k=1}^{i}\frac{1}{k}.
+\end{gather*}
+È inoltre possibile scrivere gli elementi del vettore \(m\) nella seguente forma:
+\begin{gather*}
+  m_j = \sum \limits_{k=1}^{n-j}\frac{1}{k}
+\end{gather*}
+pertanto 
+\begin{gather*}
+  \lim \limits_{n \rightarrow \infty} m_j = \lim \limits_{n \rightarrow \infty} \sum \limits_{k=1}^{n-j}\frac{1}{k} = \infty \,,\,\,\, \forall j \text{ fissato}
 \end{gather*}
 
-Ne risulta che, per $n\rightarrow\infty$, questa attesa avrà il seguente comportamento:
-\begin{align*}
-&\lim \limits_{n\rightarrow \infty} =\lim\limits_{n\rightarrow \infty}\sum_{k=1}^{i}\frac{1}{k}=
-\lim\limits_{n\rightarrow \infty} \sum_{k=1}^{n-t}\frac{1}{k}=\sum_{k=1}^{\infty}\frac{1}{k}=+\infty.
-\end{align*}
 
 
 
