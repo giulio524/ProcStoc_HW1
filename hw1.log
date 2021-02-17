@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.24)  17 FEB 2021 11:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.24)  17 FEB 2021 18:25
 entering extended mode
 **c:/Users/giuli/Documents/GitHub/ProcStoc_HW1/hw1.tex
 (c:/Users/giuli/Documents/GitHub/ProcStoc_HW1/hw1.tex
@@ -754,13 +754,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 473.
 Here is how much of TeX's memory you used:
  15502 strings out of 480799
  232671 string characters out of 2905528
- 672690 words of memory out of 3000000
+ 672682 words of memory out of 3000000
  31107 multiletter control sequences out of 15000+200000
  573742 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,16n,49p,3284b,554s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc} <C:\Users\giuli\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/bbm/dpi600\bbm12.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users\giuli\Documents\GitHub\ProcStoc_HW1\hw1.pdf (15 pages, 1123066 bytes).
+Output written on c:/Users\giuli\Documents\GitHub\ProcStoc_HW1\hw1.pdf (15 pages, 1123056 bytes).
 PDF statistics:
  181 PDF objects out of 1000 (max. 8388607)
  30 named destinations out of 1000 (max. 500000)
