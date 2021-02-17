@@ -310,22 +310,21 @@ il che è impossibile.
 \section{}%---------------ESERCIZIO 2 2-----------------------------------   
 
 Supponiamo che una catena di Markov sia fatta da un insieme di stati ricorrenti $R$ e da uno transiente $T$, come nell'esempio.
-\begin{figure}[h]\centering
-\includegraphics[scale=0.1]{Catena6.eps}
-\caption{Esempio banale}
-  \end{figure}
-\\Uno stato $y$ è detto ricorrente se il tempo di prima visita ad $y$, (\emph{hitting time}) vale  $T_{t}<\infty$ ed avviene che $y$ sarà visitato nuovamente con probabilità $\rho_{yy}=1$.\\
-Tutti i nodi ricorrenti appartenenti allo stesso insieme comunicano tra loro, cioè dati $i, j \in R$ si ha che $i$ è raggiungibile da $j$ e $j$ e raggiungibile da $i$.\\
-Supponiamo di aver inizializzato la nostra catena ad uno stato ricorrente qualsiasi di $y \in R$. \\
-Dato il nodo transiente $t$ ed  si deve avere necessariamente che $t$ è raggiungibile da $y$ ma non viceversa oppure $y$ è raggiungibile da $t$ ma non viceversa.\\Altrimenti $T$ potrebbe non essere connesso affatto con $y$ e quindi la tesi sarebbe presto dimostrata oppure $t$ comuincherebbe con $y$ e quindi sarebbe ricorrente, che contraddice l'ipotesi.\\\\
-Valutiamo quindi il caso in cui $p(t,y) > 0$ e $p(y,t) = 0$. Avendo inizializzato la catena a $X_0 = y$ si ha che
-\[\mathbb{P}(X_n= t \lvert X_0 = y) = p^{(n)}(y,t) = 0\]
-ovvero non è possibile raggiungere $t$, che equivale alla tesi. \\\\
-Se invece $p(t,y) = 0$ e $p(y,t) > 0$ si ha che
-\begin{multline*}
-\rho_{yy}=\mathbb{P}(X_n=y, X_{n-1}= t \lvert X_0 = y)=\\ = \mathbb{P}(X_n=y \lvert X_n-1 = t) \cdot(\mathbb{P}(X_{n-1} = t \lvert X_0 = y)= \\=p(t,y)\cdot p^{(n-1)}(y,t) = 0
-\end{multline*}
-che è impossibile perché $y$ ricorrente.\\Pertanto una catena che al tempo $n \in \mathbb{N}$ si trova in uno stato ricorrente non potrà più visitare uno stato transiente.
+\\Uno stato $y$ è ricorrente se e solo se 
+\begin{gather*}
+  \mathbb{E}_y(N(y)) =  \sum \limits_{n=1}^{\infty} p^{(n)}(y,y) = \infty
+\end{gather*}
+Inoltre, la ricorrenza è una proprietà di classe quindi tutti gli stati comunicanti con \(y\) sono ricorrenti.
+\\
+Sia \(x\) un generico stato transiente e \(y\) uno stato ricorrente in cui è inizializzata la catena. Sia per assurdo \(p^{(k)}(y,x)>0\) per qualche \(k\) intero, ossia supponiamo per assurdo che, partendo da uno stato ricorrente, la catena possa visitare al tempo \(k\) uno stato transiente. Andiamo a valutare la quantità \(p^{(n)}(j,j)\) ossia la probabilità di ritorno in \(x\). Dal teorema di Chapman-Kolmogorov si ottiene:
+\begin{gather*}
+  p^{(m+n+k)}(x,x) \geq p^{(m)}(x,y)p^{(n)}(y,y)p^{(k)}(y,x)
+\end{gather*}
+Pertanto\begin{gather*}
+  \mathbb{E}_x(N(x)) =  \sum \limits_{n=1}^{\infty} p^{(n)}(x,x) \geq \sum \limits_{n=1}^{\infty} p^{(n+m+k)}(x,x) \\
+  \geq p^{(m)}(x,y)p^{(k)}(y,x)\sum \limits_{n=1}^{\infty} p^{(n)}(y,y) = \infty
+\end{gather*}
+Quindi lo stato \(x\) risulterebbe essere anch'esso ricorrente, arrivando ad un assurdo.
 
 \newpage
 
